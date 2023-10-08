@@ -78,10 +78,10 @@ Audio samples are taken from the ESD dataset.
 <div class="center-text"><p> Reference Audio - Happy </p></div>
 <div class="center-text"><audio controls id="players" onplay="pauseOthers(this);"><source src="assets/s2s_raw/p228_154.mp3" type="audio/mpeg"></audio> </div>
 <table>
-	<CAPTION>Text: Traditional Voice Conversion!</CAPTION>
+	<CAPTION>Text: Today is a beautiful day!</CAPTION>
     <tr>
         <th> Intensity </th>
-        <th> 0.2 </th>
+        <th> 0.2 </th> 
         <th> 0.4 </th>
         <th> 0.6 </th>
 	<th> 0.8 </th>
@@ -114,7 +114,7 @@ Audio samples are taken from the ESD dataset.
 <div class="center-text"><p> Reference Audio - Sad </p></div>
 <div class="center-text"><audio controls id="players" onplay="pauseOthers(this);"><source src="assets/s2s_raw/p228_154.mp3" type="audio/mpeg"></audio> </div>
 <table>
-	<CAPTION>Text: Traditional Voice Conversion!</CAPTION>
+	<CAPTION>Text: I feel really bad today.</CAPTION>
     <tr>
         <th> Intensity </th>
         <th> 0.2 </th>
@@ -150,7 +150,7 @@ Audio samples are taken from the ESD dataset.
 <div class="center-text"><p> Reference Audio - Angry </p></div>
 <div class="center-text"><audio controls id="players" onplay="pauseOthers(this);"><source src="assets/s2s_raw/p228_154.mp3" type="audio/mpeg"></audio> </div>
 <table>
-	<CAPTION>Text: Traditional Voice Conversion!</CAPTION>
+	<CAPTION>Text: Annie please please don't hurt me.</CAPTION>
     <tr>
         <th> Intensity </th>
         <th> 0.2 </th>
@@ -186,7 +186,7 @@ Audio samples are taken from the ESD dataset.
 <div class="center-text"><p> Reference Audio - Surprise </p></div>
 <div class="center-text"><audio controls id="players" onplay="pauseOthers(this);"><source src="assets/s2s_raw/p228_154.mp3" type="audio/mpeg"></audio> </div>
 <table>
-	<CAPTION>Text: Traditional Voice Conversion!</CAPTION>
+	<CAPTION>Text: We finally made it!</CAPTION>
     <tr>
         <th> Intensity </th>
         <th> 0.2 </th>
