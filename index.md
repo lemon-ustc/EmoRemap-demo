@@ -35,10 +35,16 @@ table {
 #player{
     width: 100%;
 }
+#players{
+    width: 300px;
+}
+.center-text {
+            text-align: center;
+        }	
 </style>
 
-
-<th> Reference Audio <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/s2s_raw/p228_154.mp3" type="audio/mpeg"></audio> </th>
+<div class="center-text"><p> Reference Audio </p></div>
+<div class="center-text"><audio controls id="players" onplay="pauseOthers(this);"><source src="assets/s2s_raw/p228_154.mp3" type="audio/mpeg"></audio> </div>
 <table>
 	<CAPTION>Text: Traditional Voice Conversion! Emotion: Happy</CAPTION>
     <tr>
