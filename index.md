@@ -41,8 +41,9 @@ table {
 
 <table>
 	<CAPTION>Text: Traditional Voice Conversion! Emotion: Happy</CAPTION>
+	<th> Reference Audio <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/s2s_raw/p228_154.mp3" type="audio/mpeg"></audio> </th>
     <tr>
-        <th> </th>
+        <th> Intensity </th>
         <th> 0.2 </th>
         <th> 0.4 </th>
         <th> 0.6 </th>
@@ -56,7 +57,7 @@ table {
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/MAINVC/s2s/F2Fp228_154_p233_025.mp3" type="audio/mpeg"></audio> </th>
 </tr>
     <tr>
-        <th> </th>
+        <th> Intensity </th>
         <th> -0.4 </th>
         <th> -0.2 </th>
         <th> 0.2 </th>
