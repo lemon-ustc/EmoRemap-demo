@@ -38,8 +38,9 @@ table {
 </style>
 
 
+
 <table>
-	<CAPTION>Table.1 Traditional Voice Conversion (seen speakers)</CAPTION>
+	<CAPTION>Text: Traditional Voice Conversion! Emotion: Happy</CAPTION>
     <tr>
         <th> </th>
         <th> 0.2 </th>
