@@ -38,10 +38,9 @@ table {
 </style>
 
 
-
+<th> Reference Audio <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/s2s_raw/p228_154.mp3" type="audio/mpeg"></audio> </th>
 <table>
 	<CAPTION>Text: Traditional Voice Conversion! Emotion: Happy</CAPTION>
-	<th> Reference Audio <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/s2s_raw/p228_154.mp3" type="audio/mpeg"></audio> </th>
     <tr>
         <th> Intensity </th>
         <th> 0.2 </th>
