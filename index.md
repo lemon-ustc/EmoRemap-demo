@@ -204,7 +204,7 @@ Audio samples are taken from the ESD dataset.
 <div class="center-text"><p> Reference Audio - Happy </p></div>
 <div class="center-text"><audio controls id="players" onplay="pauseOthers(this);"><source src="assets/emo/happy/ref.wav" type="audio/mpeg"></audio> </div>
 <table>
-	<CAPTION>Text: Text: Some really joyful things happened today!</CAPTION>
+	<CAPTION>Text: Some really joyful things happened today!</CAPTION>
     <tr>
         <th> Intensity </th>
         <th> 0.2 </th> 
