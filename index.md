@@ -93,10 +93,10 @@ Audio samples are taken from the ESD dataset.
 
 ### Intensity Controllability
 
-<div class="center-text"><p> Reference Audio - Happy </p></div>
-<div class="center-text"><audio controls id="players" onplay="pauseOthers(this);"><source src="assets/s2s_raw/p228_154.mp3" type="audio/mpeg"></audio> </div>
+<div class="center-text"><p> Reference Audio - Sad </p></div>
+<div class="center-text"><audio controls id="players" onplay="pauseOthers(this);"><source src="assets/emo/sad/ref.wav" type="audio/mpeg"></audio> </div>
 <table>
-	<CAPTION>Text: Today is a beautiful day!</CAPTION>
+	<CAPTION>Text: I feel so bad today.</CAPTION>
     <tr>
         <th> Intensity </th>
         <th> 0.2 </th> 
@@ -106,10 +106,10 @@ Audio samples are taken from the ESD dataset.
     </tr>
 <tr>
         <th> FEC </th>
-	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/s2s_raw/p228_154.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/s2s_raw/p233_025.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/ADAINVC/s2s/p228_154_p233_025.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/MAINVC/s2s/F2Fp228_154_p233_025.mp3" type="audio/mpeg"></audio> </th>
+	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sad/fec/0.2.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sad/fec/0.4.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sad/fec/0.6.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sad/fec/0.8.wav" type="audio/mpeg"></audio> </th>
 </tr>
     <tr>
         <th> Intensity </th>
@@ -120,104 +120,32 @@ Audio samples are taken from the ESD dataset.
     </tr>
 <tr>
         <th> Ours </th>
-	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/s2s_raw/p374_070.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/s2s_raw/p286_028.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/ADAINVC/s2s/p374_070_p286_028.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/MAINVC/s2s/M2Mp374_070_p286_028.mp3" type="audio/mpeg"></audio> </th>
-</tr>	
-</table>
-
-<p>&nbsp;</p> 
-
-<div class="center-text"><p> Reference Audio - Sad </p></div>
-<div class="center-text"><audio controls id="players" onplay="pauseOthers(this);"><source src="assets/s2s_raw/p228_154.mp3" type="audio/mpeg"></audio> </div>
-<table>
-	<CAPTION>Text: I feel really bad today.</CAPTION>
-    <tr>
-        <th> Intensity </th>
-        <th> 0.2 </th>
-        <th> 0.4 </th>
-        <th> 0.6 </th>
-	<th> 0.8 </th>
-    </tr>
-<tr>
-        <th> FEC </th>
-	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/s2s_raw/p228_154.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/s2s_raw/p233_025.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/ADAINVC/s2s/p228_154_p233_025.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/MAINVC/s2s/F2Fp228_154_p233_025.mp3" type="audio/mpeg"></audio> </th>
-</tr>
-    <tr>
-        <th> Intensity </th>
-        <th> -0.4 </th>
-        <th> -0.2 </th>
-        <th> 0.2 </th>
-	<th> 0.4 </th>
-    </tr>
-<tr>
-        <th> Ours </th>
-	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/s2s_raw/p374_070.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/s2s_raw/p286_028.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/ADAINVC/s2s/p374_070_p286_028.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/MAINVC/s2s/M2Mp374_070_p286_028.mp3" type="audio/mpeg"></audio> </th>
-</tr>	
-</table>
-
-<p>&nbsp;</p> 
-
-<div class="center-text"><p> Reference Audio - Angry </p></div>
-<div class="center-text"><audio controls id="players" onplay="pauseOthers(this);"><source src="assets/s2s_raw/p228_154.mp3" type="audio/mpeg"></audio> </div>
-<table>
-	<CAPTION>Text: Annie please please don't hurt me.</CAPTION>
-    <tr>
-        <th> Intensity </th>
-        <th> 0.2 </th>
-        <th> 0.4 </th>
-        <th> 0.6 </th>
-	<th> 0.8 </th>
-    </tr>
-<tr>
-        <th> FEC </th>
-	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/s2s_raw/p228_154.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/s2s_raw/p233_025.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/ADAINVC/s2s/p228_154_p233_025.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/MAINVC/s2s/F2Fp228_154_p233_025.mp3" type="audio/mpeg"></audio> </th>
-</tr>
-    <tr>
-        <th> Intensity </th>
-        <th> -0.4 </th>
-        <th> -0.2 </th>
-        <th> 0.2 </th>
-	<th> 0.4 </th>
-    </tr>
-<tr>
-        <th> Ours </th>
-	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/s2s_raw/p374_070.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/s2s_raw/p286_028.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/ADAINVC/s2s/p374_070_p286_028.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/MAINVC/s2s/M2Mp374_070_p286_028.mp3" type="audio/mpeg"></audio> </th>
+	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sad/emoremap/-0.4.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sad/emoremap/-0.2.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sad/emoremap/0.2.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sad/emoremap/0.4.wav" type="audio/mpeg"></audio> </th>
 </tr>	
 </table>
 
 <p>&nbsp;</p> 
 
 <div class="center-text"><p> Reference Audio - Surprise </p></div>
-<div class="center-text"><audio controls id="players" onplay="pauseOthers(this);"><source src="assets/s2s_raw/p228_154.mp3" type="audio/mpeg"></audio> </div>
+<div class="center-text"><audio controls id="players" onplay="pauseOthers(this);"><source src="assets/emo/sur/ref.wav" type="audio/mpeg"></audio> </div>
 <table>
 	<CAPTION>Text: We finally made it!</CAPTION>
     <tr>
         <th> Intensity </th>
-        <th> 0.2 </th>
+        <th> 0.2 </th> 
         <th> 0.4 </th>
         <th> 0.6 </th>
 	<th> 0.8 </th>
     </tr>
 <tr>
         <th> FEC </th>
-	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/s2s_raw/p228_154.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/s2s_raw/p233_025.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/ADAINVC/s2s/p228_154_p233_025.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/MAINVC/s2s/F2Fp228_154_p233_025.mp3" type="audio/mpeg"></audio> </th>
+	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sur/fec/0.2.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sur/fec/0.4.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sur/fec/0.6.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sur/fec/0.8.wav" type="audio/mpeg"></audio> </th>
 </tr>
     <tr>
         <th> Intensity </th>
@@ -228,13 +156,85 @@ Audio samples are taken from the ESD dataset.
     </tr>
 <tr>
         <th> Ours </th>
-	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/s2s_raw/p374_070.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/s2s_raw/p286_028.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/ADAINVC/s2s/p374_070_p286_028.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/MAINVC/s2s/M2Mp374_070_p286_028.mp3" type="audio/mpeg"></audio> </th>
+	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sur/emoremap/-0.4.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sur/emoremap/-0.2.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sur/emoremap/0.2.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sur/emoremap/0.4.wav" type="audio/mpeg"></audio> </th>
+</tr>	
+</table>
+
+<p>&nbsp;</p>
+
+<div class="center-text"><p> Reference Audio - Sad </p></div>
+<div class="center-text"><audio controls id="players" onplay="pauseOthers(this);"><source src="assets/emo/sad/ref.wav" type="audio/mpeg"></audio> </div>
+<table>
+	<CAPTION>Text: I feel so bad today.</CAPTION>
+    <tr>
+        <th> Intensity </th>
+        <th> 0.2 </th> 
+        <th> 0.4 </th>
+        <th> 0.6 </th>
+	<th> 0.8 </th>
+    </tr>
+<tr>
+        <th> FEC </th>
+	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sad/fec/0.2.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sad/fec/0.4.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sad/fec/0.6.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sad/fec/0.8.wav" type="audio/mpeg"></audio> </th>
+</tr>
+    <tr>
+        <th> Intensity </th>
+        <th> -0.4 </th>
+        <th> -0.2 </th>
+        <th> 0.2 </th>
+	<th> 0.4 </th>
+    </tr>
+<tr>
+        <th> Ours </th>
+	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sad/emoremap/-0.4.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sad/emoremap/-0.2.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sad/emoremap/0.2.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sad/emoremap/0.4.wav" type="audio/mpeg"></audio> </th>
 </tr>	
 </table>
 
 <p>&nbsp;</p> 
+
+<div class="center-text"><p> Reference Audio - Happy </p></div>
+<div class="center-text"><audio controls id="players" onplay="pauseOthers(this);"><source src="assets/emo/happy/ref.wav" type="audio/mpeg"></audio> </div>
+<table>
+	<CAPTION>Text: Text: Some really joyful things happened today!</CAPTION>
+    <tr>
+        <th> Intensity </th>
+        <th> 0.2 </th> 
+        <th> 0.4 </th>
+        <th> 0.6 </th>
+	<th> 0.8 </th>
+    </tr>
+<tr>
+        <th> FEC </th>
+	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/happy/fec/0.2.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/happy/fec/0.4.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/happy/fec/0.6.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/happy/fec/0.8.wav" type="audio/mpeg"></audio> </th>
+</tr>
+    <tr>
+        <th> Intensity </th>
+        <th> -0.4 </th>
+        <th> -0.2 </th>
+        <th> 0.2 </th>
+	<th> 0.4 </th>
+    </tr>
+<tr>
+        <th> Ours </th>
+	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/happy/emoremap/-0.4.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/happy/emoremap/-0.2.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/happy/emoremap/0.2.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/happy/emoremap/0.4.wav" type="audio/mpeg"></audio> </th>
+</tr>	
+</table>
+
+<p>&nbsp;</p>
 
 
