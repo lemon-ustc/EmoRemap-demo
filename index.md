@@ -165,10 +165,10 @@ Audio samples are taken from the ESD dataset.
 
 <p>&nbsp;</p>
 
-<div class="center-text"><p> Reference Audio - Sad </p></div>
-<div class="center-text"><audio controls id="players" onplay="pauseOthers(this);"><source src="assets/emo/sad/ref.wav" type="audio/mpeg"></audio> </div>
+<div class="center-text"><p> Reference Audio - Angry </p></div>
+<div class="center-text"><audio controls id="players" onplay="pauseOthers(this);"><source src="assets/emo/ang/ref.wav" type="audio/mpeg"></audio> </div>
 <table>
-	<CAPTION>Text: I feel so bad today.</CAPTION>
+	<CAPTION>Text: Please don't bother me again!</CAPTION>
     <tr>
         <th> Intensity </th>
         <th> 0.2 </th> 
@@ -178,10 +178,10 @@ Audio samples are taken from the ESD dataset.
     </tr>
 <tr>
         <th> FEC </th>
-	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sad/fec/0.2.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sad/fec/0.4.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sad/fec/0.6.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sad/fec/0.8.wav" type="audio/mpeg"></audio> </th>
+	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/ang/fec/0.2.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/ang/fec/0.4.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/ang/fec/0.6.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/ang/fec/0.8.wav" type="audio/mpeg"></audio> </th>
 </tr>
     <tr>
         <th> Intensity </th>
@@ -192,14 +192,14 @@ Audio samples are taken from the ESD dataset.
     </tr>
 <tr>
         <th> Ours </th>
-	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sad/emoremap/-0.4.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sad/emoremap/-0.2.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sad/emoremap/0.2.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sad/emoremap/0.4.wav" type="audio/mpeg"></audio> </th>
+	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/ang/emoremap/-0.4.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/ang/emoremap/-0.2.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/ang/emoremap/0.2.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/ang/emoremap/0.4.wav" type="audio/mpeg"></audio> </th>
 </tr>	
 </table>
 
-<p>&nbsp;</p> 
+<p>&nbsp;</p>
 
 <div class="center-text"><p> Reference Audio - Happy </p></div>
 <div class="center-text"><audio controls id="players" onplay="pauseOthers(this);"><source src="assets/emo/happy/ref.wav" type="audio/mpeg"></audio> </div>
