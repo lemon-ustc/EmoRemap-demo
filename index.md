@@ -96,7 +96,7 @@ Audio samples are taken from the ESD dataset.
 <div class="center-text"><p> Reference Audio - Sad </p></div>
 <div class="center-text"><audio controls id="players" onplay="pauseOthers(this);"><source src="assets/emo/sad/ref.wav" type="audio/mpeg"></audio> </div>
 <table>
-	<CAPTION>Text: I feel so bad today.</CAPTION>
+	<CAPTION>Text: I feel really bad today.</CAPTION>
     <tr>
         <th> Intensity </th>
         <th> 0.2 </th> 
