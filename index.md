@@ -28,7 +28,7 @@ table {
 
 ## Abstract
 <p align="justify">
-Abstract: Although current Text-To-Speech (TTS) models are able to generate high-quality speech samples, emotion intensity controllable TTS remains a difficult challenge. Most existing TTS models achieve emotion intensity control by extracting intensity information from reference speeches. Unfortunately, limited by the lack of modeling for intra-class emotion intensity and the model's information decoupling capability, the generated speech cannot achieve fine-grained emotion intensity control and suffers from information leakage issues. In this paper, we propose an emotion transfer TTS model, which defines a remapping method to model intra-class relative intensity information, combined with mutual information (MI) to decouple speaker and emotion information, and synthesizes expressive speeches with clearly perceivable intensity. Experiments show that our model achieves fine-grained emotion control while preserving speaker information.
+Abstract: Although current Text-To-Speech (TTS) models are able to generate high-quality speech samples, emotion intensity controllable TTS remains a difficult challenge. Most existing TTS models achieve emotion intensity control by extracting intensity information from reference speeches. Unfortunately, limited by the lack of modeling for intra-class emotion intensity and the model's information decoupling capability, the generated speech cannot achieve fine-grained emotion intensity control and suffers from information leakage issues. In this paper, we propose an emotion transfer TTS model, which defines a remapping-based sorting method to model intra-class relative intensity information, combined with mutual information (MI) to decouple speaker and emotion information, and synthesizes expressive speeches with clearly perceivable intensity. Experiments show that our model achieves fine-grained emotion control while preserving speaker information.
 </p>
 
 ## Overview
@@ -47,8 +47,8 @@ Audio samples are taken from the ESD dataset.
 <table>
     <tr>
         <th> Reference </th>
-        <th> FEC </th>
-        <th> CET </th>
+        <th> Mixed Emotion </th>
+        <th> EmoMix </th>
         <th> Ours </th>
     </tr>
 <tr>
@@ -105,7 +105,7 @@ Audio samples are taken from the ESD dataset.
 	<th> 0.8 </th>
     </tr>
 <tr>
-        <th> FEC </th>
+        <th> Mixed Emotion </th>
 	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sad/fec/0.2.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sad/fec/0.4.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sad/fec/0.6.wav" type="audio/mpeg"></audio> </th>
@@ -113,10 +113,10 @@ Audio samples are taken from the ESD dataset.
 </tr>
     <tr>
         <th> Intensity </th>
-        <th> -0.4 </th>
-        <th> -0.2 </th>
-        <th> 0.2 </th>
-	<th> 0.4 </th>
+        <th> 0.2 </th> 
+        <th> 0.4 </th>
+        <th> 0.6 </th>
+	<th> 0.8 </th>
     </tr>
 <tr>
         <th> Ours </th>
@@ -141,7 +141,7 @@ Audio samples are taken from the ESD dataset.
 	<th> 0.8 </th>
     </tr>
 <tr>
-        <th> FEC </th>
+        <th> Mixed Emotion </th>
 	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sur/fec/0.2.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sur/fec/0.4.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sur/fec/0.6.wav" type="audio/mpeg"></audio> </th>
@@ -149,10 +149,10 @@ Audio samples are taken from the ESD dataset.
 </tr>
     <tr>
         <th> Intensity </th>
-        <th> -0.4 </th>
-        <th> -0.2 </th>
-        <th> 0.2 </th>
-	<th> 0.4 </th>
+        <th> 0.2 </th> 
+        <th> 0.4 </th>
+        <th> 0.6 </th>
+	<th> 0.8 </th>
     </tr>
 <tr>
         <th> Ours </th>
@@ -177,7 +177,7 @@ Audio samples are taken from the ESD dataset.
 	<th> 0.8 </th>
     </tr>
 <tr>
-        <th> FEC </th>
+        <th> Mixed Emotion </th>
 	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/ang/fec/0.2.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/ang/fec/0.4.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/ang/fec/0.6.wav" type="audio/mpeg"></audio> </th>
@@ -185,10 +185,10 @@ Audio samples are taken from the ESD dataset.
 </tr>
     <tr>
         <th> Intensity </th>
-        <th> -0.4 </th>
-        <th> -0.2 </th>
-        <th> 0.2 </th>
-	<th> 0.4 </th>
+        <th> 0.2 </th> 
+        <th> 0.4 </th>
+        <th> 0.6 </th>
+	<th> 0.8 </th>
     </tr>
 <tr>
         <th> Ours </th>
@@ -213,7 +213,7 @@ Audio samples are taken from the ESD dataset.
 	<th> 0.8 </th>
     </tr>
 <tr>
-        <th> FEC </th>
+        <th> Mixed Emotion </th>
 	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/happy/fec/0.2.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/happy/fec/0.4.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/happy/fec/0.6.wav" type="audio/mpeg"></audio> </th>
@@ -221,10 +221,10 @@ Audio samples are taken from the ESD dataset.
 </tr>
     <tr>
         <th> Intensity </th>
-        <th> -0.4 </th>
-        <th> -0.2 </th>
-        <th> 0.2 </th>
-	<th> 0.4 </th>
+        <th> 0.2 </th> 
+        <th> 0.4 </th>
+        <th> 0.6 </th>
+	<th> 0.8 </th>
     </tr>
 <tr>
         <th> Ours </th>
