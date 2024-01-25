@@ -37,7 +37,7 @@ Abstract: Although current Text-To-Speech (TTS) models are able to generate high
 </p>
 
 ![Model Architecture ](assets/frame.png)
-<p align="center">Figure.1 The Architecture of EmoRemap</p>
+<p align="center">Figure.1 The Architecture of RSET</p>
 
 ## Samples
 Audio samples are taken from the ESD dataset.
