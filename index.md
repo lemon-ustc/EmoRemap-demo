@@ -24,7 +24,7 @@ table {
         }	
 </style>
 
-# EmoRemap
+# RSET: Remapping-based Sorting Method for Emotion Transfer Speech Synthesis
 
 ## Abstract
 <p align="justify">
