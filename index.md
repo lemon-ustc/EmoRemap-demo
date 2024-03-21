@@ -49,7 +49,7 @@ Audio samples are taken from the ESD dataset.
         <th> Reference </th>
         <th> Mixed Emotion </th>
         <th> EmoMix </th>
-        <th> Ours </th>
+        <th> RSET(ours) </th>
     </tr>
 <tr>
 	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/sim/1_ref.wav" type="audio/mpeg"></audio> </th>
@@ -119,7 +119,7 @@ Audio samples are taken from the ESD dataset.
 	<th> 0.8 </th>
     </tr>
 <tr>
-        <th> Ours </th>
+        <th> RSET(ours) </th>
 	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sad/emoremap/-0.4.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sad/emoremap/-0.2.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sad/emoremap/0.2.wav" type="audio/mpeg"></audio> </th>
@@ -155,7 +155,7 @@ Audio samples are taken from the ESD dataset.
 	<th> 0.8 </th>
     </tr>
 <tr>
-        <th> Ours </th>
+        <th> RSET(ours) </th>
 	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sur/emoremap/-0.4.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sur/emoremap/-0.2.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/sur/emoremap/0.2.wav" type="audio/mpeg"></audio> </th>
@@ -191,7 +191,7 @@ Audio samples are taken from the ESD dataset.
 	<th> 0.8 </th>
     </tr>
 <tr>
-        <th> Ours </th>
+        <th> RSET(ours) </th>
 	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/ang/emoremap/-0.4.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/ang/emoremap/-0.2.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/ang/emoremap/0.2.wav" type="audio/mpeg"></audio> </th>
@@ -227,7 +227,7 @@ Audio samples are taken from the ESD dataset.
 	<th> 0.8 </th>
     </tr>
 <tr>
-        <th> Ours </th>
+        <th> RSET(ours) </th>
 	<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/happy/emoremap/-0.4.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/happy/emoremap/-0.2.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/emo/happy/emoremap/0.2.wav" type="audio/mpeg"></audio> </th>
