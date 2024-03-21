@@ -28,7 +28,7 @@ table {
 
 ## Abstract
 <p align="justify">
-Although current Text-To-Speech (TTS) models are able to generate high-quality speech samples, emotion intensity controllable TTS remains a difficult challenge. Most existing TTS models achieve emotion intensity control by extracting intensity information from reference speeches. Unfortunately, limited by the lack of modeling for intra-class emotion intensity and the model's information decoupling capability, the generated speech cannot achieve fine-grained emotion intensity control and suffers from information leakage issues. In this paper, we propose an emotion transfer TTS model, which defines a remapping-based sorting method to model intra-class relative intensity information, combined with mutual information (MI) to decouple speaker and emotion information, and synthesizes expressive speeches with clearly perceivable intensity. Experiments show that our model achieves fine-grained emotion control while preserving speaker information.
+Although current Text-To-Speech (TTS) models are able to generate high-quality speech samples, there are still challenges in developing emotion intensity controllable TTS. Most existing TTS models achieve emotion intensity control by extracting intensity information from reference speeches. Unfortunately, limited by the lack of modeling for intra-class emotion intensity and the model's information decoupling capability, the generated speech cannot achieve fine-grained emotion intensity control and suffers from information leakage issues. In this paper, we propose an emotion transfer TTS model, which defines a remapping-based sorting method to model intra-class relative intensity information, combined with Mutual Information (MI) to decouple speaker and emotion information, and synthesizes expressive speeches with perceptible intensity differences. Experiments show that our model achieves fine-grained emotion control while preserving speaker information.
 </p>
 
 ## Overview
@@ -36,7 +36,7 @@ Although current Text-To-Speech (TTS) models are able to generate high-quality s
 
 </p>
 
-![Model Architecture ](assets/frame.png)
+![Model Architecture ](assets/arcf.png)
 <p align="center">Figure.1 The Architecture of RSET</p>
 
 ## Samples
