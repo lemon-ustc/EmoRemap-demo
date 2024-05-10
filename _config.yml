@@ -1,7 +1,7 @@
-title: EmoRemap
-description: INTRA-CLASS INTENSITY CONTROL FOR EMOTION TRANSFER SPEECH SYNTHESIS USING REMAPPING
+title: RSET
+description: Remapping-based Sorting Method for Emotion Transfer Speech Synthesis
 
 theme: jekyll-theme-cayman
 
 github:
-  repository_url: https://github.com/lemon-ustc/EmoRemap-demo
+  repository_url: https://github.com/lemon-ustc/RSET-demo
